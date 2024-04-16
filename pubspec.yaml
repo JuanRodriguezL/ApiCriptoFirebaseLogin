@@ -1,0 +1,30 @@
+name: crypto
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.5.0-18.0.dev <4.0.0'
+
+dependencies:
+  dio: ^5.4.3+1
+  firebase_auth: ^4.19.2
+  firebase_core: ^2.30.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/bitcoin.png
+    - assets/images/ethereum.png
+    - assets/images/litecoin.png
+    - assets/images/ripple.png
+
+  
