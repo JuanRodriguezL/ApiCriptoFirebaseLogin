@@ -4,6 +4,7 @@ import 'package:crypto/screen/cripto_screen.dart';
 import 'package:crypto/screen/login_screen.dart';
 import 'package:crypto/screen/registro_screen.dart';
 import 'package:crypto/screen/splash_screen.dart';
+import 'package:crypto/screen/info_crypto_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart'; // Importa el paquete Flutter para widgets de Material Design
  // Importa el paquete para utilizar objetos relacionados con el tiempo (Timer)
@@ -25,9 +26,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false, // Oculta el banner de depuración
       initialRoute: '/', // Ruta inicial
       routes: {
-        '/': (context) => const LoginScreen(),  // Ruta inicial: SplashScreen
+        '/': (context) => const LoginScreen(),  
         '/home': (context) => const CriptoScreen(),
          '/register': (context) => const RegisterScreen(),
+          
         
       },
     );
